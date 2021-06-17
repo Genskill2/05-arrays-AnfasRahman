@@ -51,7 +51,7 @@ int mode(int array[], int n)
 int factors(int n, int array[])
 {
 	int j=0;
-	for(int i=2;i<n;i++)
+	for(int i=2;i<=n;i++)
 	{
 		if(n%i==0)
 		{
